@@ -1,0 +1,113 @@
+/* .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30em;
+    background-color: aqua;
+    width: 30%;
+} */
+
+.logoimg{
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-block-end: 7px;
+    height: 10em;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+} 
+body {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin: 0;
+    background-color: rgba(255,255,255,1);
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    /* margin-top: 9em; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 330px;
+    height: 50px;
+    font-size: 40px;
+    background: rgba(196, 196, 196, 0.35);
+    /* Gray 6 */
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.commonbtn{
+    border-radius: 20px;
+    background: rgba(141, 24, 48, 1);
+    color: white;
+    font-size: 20px;
+    width: 128px;
+    height: 59px;
+    margin-left: 18px;
+    padding-left:10px ;
+}
+
+.linkbtn{
+    color:white;
+    text-decoration-line: none;
+}
+/* header */
+.header{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+    background-color: rgba(141, 24, 48, 1);
+    color:white;
+    /* text-align: center; */
+    width: 100%;
+
+}
+
+.logoheader{
+    margin: 1em;
+    height: 3em;
+}
+
+.foont{
+    margin-top: 3px;
+}
+
+/* registerAndLogin */
+.containeer{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.or{
+    margin-left: 5em;
+}
+
+.container2{
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top:1em;
+    font-size: 25px;
+
+} 
+
+.btnBN{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+}
