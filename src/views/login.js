@@ -10,7 +10,7 @@ function Login(history){
             <p>Correo</p>
             <input/>
             <p>contraseña</p>
-            <input/>
+            <input  type="password"/>
             <p>También puedes ingresar con su correo de google</p>
             <Buttons to="/post" name="Google" btn="commonbtn" linkbtn="linkbtn"/>     
             <div className="btnBN">   
