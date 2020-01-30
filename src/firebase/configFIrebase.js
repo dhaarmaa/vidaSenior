@@ -1,4 +1,6 @@
  // Your web app's Firebase configuration
+import firebase from 'firebase';
+
 var firebaseConfig = {
     apiKey: "AIzaSyCcs2rF14fjLzv4vB20GSMU89v8yzUQ6t0",
     authDomain: "vidasenior-92647.firebaseapp.com",
@@ -10,5 +12,7 @@ var firebaseConfig = {
     measurementId: "G-7K181810L9"
 };
   // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+const fire = firebase.initializeApp(firebaseConfig);
+ export default fire;
+
+//firebase.analytics();

@@ -1,6 +1,6 @@
 //login Google
 
-export const loginGoogle=()=>{
+/*export const loginGoogle=()=>{
     var provider = new firebase.auth.GoogleAuthProvider();
     firebase.auth().signInWithRedirect(provider).then(result => {
         const user = result.user;
@@ -63,7 +63,7 @@ export const saveUserToDatabaseAfterLogin = (userData) => {
 
 
 firebase.auth().signOut().then(function() {
-    // Sign-out successful.
+    Sign-out successful.
   }).catch(function(error) {
-    // An error happened.
-  });
+    An error happened.
+  });*/

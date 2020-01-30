@@ -1,10 +1,10 @@
-import React from 'react';
+//import React from 'react';
 //import Header from "../components/Header";
-import Buttons from '../components/Buttons';
-import logo from '../img/logo.png';
-import '../style.css';
+//import Buttons from '../components/Buttons';
+//import logo from '../img/logo.png';
+//import '../style.css';
 
-function Home(history){
+/*function Home(history){
     return(
         <div className="container">
             <div>
@@ -16,10 +16,41 @@ function Home(history){
             <div>
             <Buttons to="/registerandlogin" name="Comenzar" btn="commonbtn" linkbtn="linkbtn"/>
             </div>
-            {/* <button onClick={() => history.push("/registerandlogin")} >Comnezar</button> */}
-
         </div>
     )
+}
+
+export default Home;*/
+
+import React, { Component } from 'react';
+import fire from '../firebase/configFIrebase';
+
+class Home extends Component {
+    constructor(props) {
+        super(props);
+        this.logout = this.logout.bind(this);
+    }
+
+
+    logout() {
+        fire.auth().signOut();
+    }
+
+    render() {
+        return (
+            <div>
+                <h1>Welcome to Home</h1>
+
+                <button>Logout</button>Logout
+            </div>
+           
+               
+   
+
+);
+
+    }
+
 }
 
 export default Home;
